@@ -28,6 +28,7 @@ themeButton.addEventListener('click', () => {
 })
 console.log("THEME SETTING IS WORKING!")
 
+
 //=====MENU show y hidden====
 const navMenu = document.getElementById('nav-menu')
 const navToggle = document.getElementById('nav-toggle')
@@ -49,9 +50,6 @@ if(navClose){
     })
 } 
 
-
-
-
 console.log("MENU Y SETTING WORKING!")
 //===================================== REMOVE MENU PRORFILE =========================
 const navLink = document.querySelectorAll('.nav__link')
@@ -64,3 +62,14 @@ function linkAction(){
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
 console.log("Remove menu profile is working!")
+ 
+//===================== type writr effect========
+
+
+new Typewriter('#typewriter', {
+  strings: ['Yaswanth Ampolu', 'Programming geek', 'Gaming enthusiast', 'web developer'],
+  autoStart: true,
+  loop: true,
+  cusor: "|"
+});
+console.log(" type writer is working")
