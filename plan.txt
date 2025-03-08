@@ -1,8 +1,0 @@
-header
-Main
-    Home
-    About
-    skills
-    portfolio
-    contact us
-footer
