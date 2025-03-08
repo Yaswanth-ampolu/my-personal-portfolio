@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!------------fonts------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!------icons--------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <!-- Argon CSS -->
+    <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
+
+    <!-- personal styling -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Ampolu yaswanth</title>
+  </head>
+  <body>       
+<!-----------header-------->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__container d-flex justify-content-between align-items-center">
+                <a href="#" class="nav__logo">AMPOLU YASWANTH</a>
+
+            <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                    <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file nav__icon"></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="uil uil-diary nav__icon"></i>Qualification
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-folder-open nav__icon"></i>Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!------------THEME CHANGING BUTTONS---------->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!--=======main==========-->    
+    <main class="main">
+
+    <!------------home---------->
+        <section class="home section" id="home">
+            <div class="container">
+                <div class="home__content">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/yaswanth-ampolu-a2b110238/" 
+                           target="_blank" 
+                           class="home__social-icon" 
+                           aria-label="LinkedIn">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/Yaswanth-ampolu" 
+                           target="_blank" 
+                           class="home__social-icon" 
+                           aria-label="GitHub">
+                            <i class="uil uil-github"></i>
+                        </a>
+
+                        <a href="https://leetcode.com/u/yaswanthAmpolu/" 
+                           target="_blank" 
+                           class="home__social-icon" 
+                           aria-label="LeetCode">
+                            <i class="uil uil-code-branch"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__data">
+                        <small class="home__welcome">Welcome to my Portfolio website</small>
+                        <h1 class="home__title">Hey I'm</h1>
+                        <div class="home__typewriter" id="typewriter"></div>
+                        <p class="home__description">
+                            A graduate in engineering, enthusiastic about web development and artificial intelligence. Also a fellow book-worm.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-------------about me-------->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <div class="about__img">
+                    <img src="assets/img/profile.jpg" alt="Profile Image">
+                    <div class="about__img-border"></div>
+                </div>
+
+                <div class="about__data">
+                    <p class="about__description">
+                        I'm a passionate Software Engineer with expertise in AI/ML, currently working at Sierraedge AI Pvt Ltd. 
+                        My journey in technology is driven by a deep interest in artificial intelligence, machine learning, and data science. 
+                        I specialize in developing AI solutions, with hands-on experience in LLMs, Deep Learning, and Generative AI.
+                    </p>
+                    
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">1+</span>
+                            <span class="about__info-name">Years<br>experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">17+</span>
+                            <span class="about__info-name">Completed<br>projects</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">13+</span>
+                            <span class="about__info-name">Technical<br>certifications</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="Yaswanth_Ampolu_Resume" href="assets/pdf/Yaswanth_Ampolu_Resume.pdf" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-----------skills-------->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical expertise</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!-- Programming Languages -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Programming Languages</h1>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__card">
+                                <i class="fab fa-python skills__card-icon"></i>
+                                <h3 class="skills__card-title">Python</h3>
+                                <p class="skills__card-description">Advanced Python development, NumPy, Pandas, Scikit-learn</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-java-script skills__card-icon"></i>
+                                <h3 class="skills__card-title">JavaScript</h3>
+                                <p class="skills__card-description">ES6+, TypeScript, Async/Await, DOM Manipulation</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="fab fa-java skills__card-icon"></i>
+                                <h3 class="skills__card-title">Java</h3>
+                                <p class="skills__card-description">Core Java, Spring Boot, JUnit, Maven</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-cube skills__card-icon"></i>
+                                <h3 class="skills__card-title">Go</h3>
+                                <p class="skills__card-description">Concurrent Programming, Microservices, Web Services</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development -->
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="uil uil-window-grid skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Web Development</h1>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__card">
+                                <i class="uil uil-react skills__card-icon"></i>
+                                <h3 class="skills__card-title">React Ecosystem</h3>
+                                <p class="skills__card-description">React 18, Redux Toolkit, React Query, Custom Hooks</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-web-grid skills__card-icon"></i>
+                                <h3 class="skills__card-title">Next.js</h3>
+                                <p class="skills__card-description">SSR, SSG, API Routes, Dynamic Imports, App Router</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-server-network skills__card-icon"></i>
+                                <h3 class="skills__card-title">Backend Development</h3>
+                                <p class="skills__card-description">Express.js, Node.js, RESTful APIs, GraphQL</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-wind skills__card-icon"></i>
+                                <h3 class="skills__card-title">Modern CSS</h3>
+                                <p class="skills__card-description">Tailwind CSS, Styled Components, CSS Modules</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-shield-check skills__card-icon"></i>
+                                <h3 class="skills__card-title">Testing & DevOps</h3>
+                                <p class="skills__card-description">Jest, React Testing Library, CI/CD, Docker</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-cloud-computing skills__card-icon"></i>
+                                <h3 class="skills__card-title">Cloud Services</h3>
+                                <p class="skills__card-description">AWS, GCP, Vercel, Netlify Deployment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI/ML & Data Science -->
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="uil uil-brain skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">AI/ML & Data Science</h1>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__card">
+                                <i class="uil uil-circuit skills__card-icon"></i>
+                                <h3 class="skills__card-title">Deep Learning</h3>
+                                <p class="skills__card-description">Neural Networks, CNN, RNN, Transformers</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-comment-alt-message skills__card-icon"></i>
+                                <h3 class="skills__card-title">NLP</h3>
+                                <p class="skills__card-description">BERT, GPT, LangChain, Text Classification</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-eye skills__card-icon"></i>
+                                <h3 class="skills__card-title">Computer Vision</h3>
+                                <p class="skills__card-description">OpenCV, Object Detection, Image Segmentation</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-robot skills__card-icon"></i>
+                                <h3 class="skills__card-title">Generative AI</h3>
+                                <p class="skills__card-description">GANs, Diffusion Models, LLMs</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-analysis skills__card-icon"></i>
+                                <h3 class="skills__card-title">ML Frameworks</h3>
+                                <p class="skills__card-description">TensorFlow, PyTorch, Scikit-learn, Keras</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-chart-line skills__card-icon"></i>
+                                <h3 class="skills__card-title">Data Analysis</h3>
+                                <p class="skills__card-description">Pandas, NumPy, Data Visualization, Statistics</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Technologies -->
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="uil uil-wrench skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Tools & Technologies</h1>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__card">
+                                <i class="uil uil-database-alt skills__card-icon"></i>
+                                <h3 class="skills__card-title">Databases</h3>
+                                <p class="skills__card-description">MongoDB, PostgreSQL, Redis, Database Design</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-docker skills__card-icon"></i>
+                                <h3 class="skills__card-title">DevOps Tools</h3>
+                                <p class="skills__card-description">Git, Docker, Kubernetes, CI/CD Pipelines</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-cloud skills__card-icon"></i>
+                                <h3 class="skills__card-title">Cloud Platforms</h3>
+                                <p class="skills__card-description">AWS (EC2, S3, Lambda), GCP, Azure</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-chart skills__card-icon"></i>
+                                <h3 class="skills__card-title">Analytics Tools</h3>
+                                <p class="skills__card-description">PowerBI, Grafana, Tableau, Kibana</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-server skills__card-icon"></i>
+                                <h3 class="skills__card-title">API Tools</h3>
+                                <p class="skills__card-description">Postman, Swagger, REST APIs, GraphQL</p>
+                            </div>
+                            <div class="skills__card">
+                                <i class="uil uil-monitor skills__card-icon"></i>
+                                <h3 class="skills__card-title">Development Tools</h3>
+                                <p class="skills__card-description">VS Code, PyCharm, IntelliJ IDEA, Jupyter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-----------qualification-------->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!-- Education -->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!-- BTech -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Bachelor of Technology in Information Technology</h3>
+                                <span class="qualification__subtitle">Aditya Institute of Technology and Management</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - 2024
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Intermediate -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Intermediate - MPC</h3>
+                                <span class="qualification__subtitle">Sri Gurukula Vidyalayam</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2018 - 2020
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- School -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">School Education</h3>
+                                <span class="qualification__subtitle">St. Francis de Sales</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Till 2018
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Experience -->
+                    <div class="qualification__content" data-content id="work">
+                        <!-- Current Job -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Software Engineer</h3>
+                                <span class="qualification__subtitle">Sierraedge AI Pvt Ltd - Bengaluru</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    May 2024 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Previous Job -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Data Science Intern</h3>
+                                <span class="qualification__subtitle">CloudTechnologies - Hyderabad</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Jun 2023 - July 2023
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-----------portfolio-------->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Portfolio Item 1 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">MotivHater - Productivity App</h3>
+                            <p class="portfolio__description">
+                                A unique productivity app that blends AI-generated humor, brutal roasts, and gamified motivation. Built with React 14, Express, Vite, Tailwind CSS, and more.
+                            </p>
+                            <a href="https://motivhater.netlify.app/" class="button button--flex button--small portfolio__button">
+                                Live Demo <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a href="https://github.com/Yaswanth-ampolu/MotivHater" class="button button--flex button--small portfolio__button">
+                                Code <i class="uil uil-github button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 2 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">RentalTruth-Scrapper</h3>
+                            <p class="portfolio__description">
+                                A Python-based web scraping tool for collecting and analyzing rental property data in Bangalore. Features automated data collection from multiple sources and comprehensive CSV exports.
+                            </p>
+                            <a href="https://github.com/Yaswanth-ampolu/RentalTruth-Scrapper" class="button button--flex button--small portfolio__button">
+                                View Project <i class="uil uil-github button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 3 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">AI-Powered Language Tools</h3>
+                            <p class="portfolio__description">
+                                Collection of NLP projects including language translation, Q&A chatbot using LangChain, and multimedia analysis using Whisper AI and other tools.
+                            </p>
+                            <a href="https://github.com/Yaswanth-ampolu?tab=repositories" class="button button--flex button--small portfolio__button">
+                                View Projects <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 4 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Machine Learning Applications</h3>
+                            <p class="portfolio__description">
+                                Projects including facial emotion recognition using OpenCV & TensorFlow, sales forecasting with ML, and data analysis visualizations.
+                            </p>
+                            <a href="https://github.com/Yaswanth-ampolu?tab=repositories" class="button button--flex button--small portfolio__button">
+                                View Projects <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+    <!-----------contact us-------->
+     <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container">
+                <div class="contact__content">
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">6305151728</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">ampoluyaswanth2002@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Bengaluru, India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </section>
+    </main>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+<!------------footer-------->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container">
+
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Let's Connect</h3>
+                    <p class="footer__description">
+                        Feel free to reach out for collaborations or just a friendly chat about technology and innovation.
+                    </p>
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/yaswanth-ampolu-a2b110238/" 
+                           target="_blank" 
+                           class="footer__social" 
+                           aria-label="LinkedIn">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/Yaswanth-ampolu" 
+                           target="_blank" 
+                           class="footer__social"
+                           aria-label="GitHub">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/yaswanthAmpolu/" 
+                           target="_blank" 
+                           class="footer__social"
+                           aria-label="LeetCode">
+                            <i class="uil uil-code-branch"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="footer__copy">
+                © 2025 Yaswanth Ampolu. All rights reserved
+            </p>
+        </div>
+    </footer>
+
+<!-- 
+    Option 1: Bootstrap Bundle with Popper
+    <script src="https://  cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+    <!-- Core -->
+    <script src="js/core/jquery.min.js"></script>
+    <script src="js/core/popper.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+ 
+
+    <!-- Flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <!-- Argon JS -->
+    <script src="js/argon-design-system.js"></script>
+
+    <!-- type writer effect-->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-------self script-------->
+    <script src="js/script.js"></script>
+  </body>
+</html>
